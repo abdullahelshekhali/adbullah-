@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/com.css">
+    <script src="js/com.js"></script>
+    <title>Communication</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function(){
+            emailjs.init("vLV1LzCaOTKMbSXvX");
+            })();
+</script>
+</head>
+<body>
+    <header class="header" >
+        <div id="menubar" class="fa-solid fa-bars"></div>
+        <a href="index.html"class="logo">Hassan
+            <span>syr</span>
+        </a>
+        <nav class=navc>
+            <a href="index.html">Home</a>
+            <a href="indexcv.html" >CV</a>
+            <a href="indexMyCity.html" >MyCity</a>
+            <a href="api.html" >Interests</a>
+            <a href="Communication.html" >Communication</a>
+        </nav>
+        <div id="login-btn">
+                <button type="button" class="bz">login</button>
+                <i class="fa-solid fa-user"></i>
+            </div>
+    </header>
+    <section class="loginfrm"> 
+        <span class="fa-solid fa-xmark" id="close-login-btn"></span>
+        <form action="">
+            <h3>login </h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="password" class="box">
+            <input type="submit" value="login now" class="bz" >
+            <p>or login with</p>
+            <div class="btns">
+                <a href="#" class="bz">google</a>
+                <a href="#" class="bz">facebook</a>
+            </div>
+        </form>
+    </section>
+    <section class="centact section main" id="contact">
+        <h3 class="section__subtitle">
+            get in <sapn class="spanm">touch</sapn>
+        </h3>
+        <h2 class="section__title">
+            contact me
+        </h2>
+        <div class="contact__container container grid">
+            <div class="contact__form" id="contact-form">
+                <div class="contact__group">
+                    <input id="toName" type="text" name="user_name" required  placeholder="enter your name" class="contact__input"> 
+                    <input id="fromName" type="email" name="user_email" required  placeholder="enter your email" class="contact__input">
+                </div>
+                <input type="text" id="msg" placeholder="enter your message" class="contact__input">
+                <p class="contact__message" id="contact-message"></p>
+                <button onclick="sendMail()"  type="submit" class="button contact__button">
+                    send message
+                </button>
+            </div>       
+        </div>
+    </section>
+    <section class="cd">
+        <div class="ct">
+            <div class="card">
+                <div class="imgf">
+                    <img src="img/65b73af1-b684-4e51-b6f9-606b997f055e.webp" alt="" >
+                </div>
+                <div class="in">
+                    <h3>WhatsApp</h3>
+                    <p>
+                        +905541876720
+                    </p>
+                </div>
+            </a>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/Chess" class="lik">
+                <div class="imgf">
+                    <img src="img/11-15.jpg" alt="">
+                </div>
+                <div class="in">
+                    <h3>Email</h3>
+                    <p>
+                        hassansyr3333@gmail.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="foo">
+        <div class="soc">
+            <a href="https://instagram.com/hassan__sy3?igshid=ZGUzMzM3NWJiOQ=="><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/7hassan-sy"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.tiktok.com/@hassan_syr3?_t=8c7rLAVwTf4&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://youtube.com/@hassansyr5060"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <a href="Communication.html">
+        <i class="fa-solid fa-arrow-up" ></i>
+        </a>
+        </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
